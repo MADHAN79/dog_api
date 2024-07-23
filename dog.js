@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const generateBtn = document.getElementById("generateBtn");
 
 
-function fetchDogImage() {
+function fetchDogImage() { 
     fetch('https://dog.ceo/api/breeds/image/random')
         .then(response => response.json())
         .then(data => {
